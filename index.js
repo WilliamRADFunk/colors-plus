@@ -1,9 +1,6 @@
 var colors = require('colors');
 
-module['exports'] = function()
+exports.success = function (msg)
 {
-	var success = function (msg)
-	{
-		return ('\u2713'.green + msg);
-	};
+	return ('\u2713'.green + msg);
 };
