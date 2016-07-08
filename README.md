@@ -7,13 +7,12 @@ For custom reporting on tests, I needed the green check for passing, red X for f
 The colors library by Marak is the powerhouse here. This library incorporates that, adding some additional shapes.
 
 ##Example
----------------------------------------------
 
-var colors = require('colors-plus');
+var colors = require('colors-plus');<br/>
 var messageToFormat = "Test 1 failed";
 
 console.log(colors.failure(messageToFormat));
 
 ---------------------------------------------
 
-> X		Test 1 failed
+$> X		Test 1 failed
