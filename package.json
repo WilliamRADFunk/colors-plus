@@ -1,6 +1,6 @@
 {
   "name": "colors-plus",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An extension of functionality to the npm package 'colors'",
   "main": "index.js",
   "dependencies": {
