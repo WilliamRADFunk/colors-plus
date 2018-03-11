@@ -19,8 +19,8 @@ console.log(colors.warning(warningMessageToFormat));
 
 ---------------------------------------------
 
-$> &#2713		Test 1 failed
+$> ✓		Test 1 failed
 
-$> &#2717		Test 2 passed
+$> ✗		Test 2 passed
 
-$> &#25B2		Test warning
+$> ▲		Test warning
