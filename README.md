@@ -31,4 +31,4 @@ The above examples will be colored red, green, and yellow, respectively.
 
 ## Contact
 
-If you notice any bugs our think of any useful additions, let me know and I'll update when I can.
+If you notice any bugs or think of any useful additions, let me know and I'll update when I can.
