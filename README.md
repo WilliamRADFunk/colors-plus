@@ -9,10 +9,18 @@ The colors library by Marak is the powerhouse here. This library incorporates th
 ##Example
 
 var colors = require('colors-plus');<br/>
-var messageToFormat = "Test 1 failed";
+var failedMessageToFormat = "Test 1 failed";
+var successMessageToFormat = "Test 2 passed";
+var warningMessageToFormat = "Test warning";
 
-console.log(colors.failure(messageToFormat));
+console.log(colors.failure(failedMessageToFormat));
+console.log(colors.success(successMessageToFormat));
+console.log(colors.warning(warningMessageToFormat));
 
 ---------------------------------------------
 
-$> X		Test 1 failed
+$> &#2713		Test 1 failed
+
+$> &#2717		Test 2 passed
+
+$> &#25B2		Test warning
